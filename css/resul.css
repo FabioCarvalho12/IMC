@@ -1,0 +1,27 @@
+/* Define a cor de fundo do corpo da página */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Define o estilo do título */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #0099ff;
+    margin-top: 20px;
+}
+
+/* Define o estilo do parágrafo */
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Define o estilo da categoria do IMC */
+p:last-child {
+    font-weight: bold;
+}

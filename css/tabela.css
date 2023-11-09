@@ -1,0 +1,90 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o formulário de edição */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 50px;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+p {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Estilizando a mensagem de erro */
+p.error {
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+/* Estilizando os links "Excluir" e "Editar" */
+a {
+    text-decoration: none;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0054a7;
+}
